@@ -15,7 +15,7 @@ from .permissions import (
     permission_theme_create, permission_theme_delete, permission_theme_edit,
     permission_theme_view
 )
-
+#test comment
 
 class CurrentUserThemeSettingsDetailsView(SimpleView):
     template_name = 'appearance/generic_form.html'
